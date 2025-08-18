@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkatsai B Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        .section { scroll-margin-top: 80px; }
+        .navbar { position: sticky; top: 0; z-index: 1000; }
+        .project-card { transition: transform 0.3s; }
+        .project-card:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-blue-900 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Venkata Sai Badugu</h1>
+            <div class="space-x-4">
+                <a href="#home" class="hover:text-blue-300">Home</a>
+                <a href="#about" class="hover:text-blue-300">About</a>
+                <a href="#skills" class="hover:text-blue-300">Skills</a>
+                <a href="#experience" class="hover:text-blue-300">Experience</a>
+                <a href="#education" class="hover:text-blue-300">Education</a>
+                <a href="#contact" class="hover:text-blue-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section bg-blue-800 text-white py-20 text-center">
+        <div class="container mx-auto">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" class="rounded-full mx-auto mb-4">
+            <h1 class="text-4xl font-bold mb-2">Venkata Sai Badugu</h1>
+            <p class="text-xl mb-4">Industrial Engineer | Automotive Design & Process Optimization</p>
+            <p class="text-lg">Optimizing designs and processes for automotive and manufacturing excellence</p>
+            <a href="#contact" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Highly skilled Design and Industrial Engineer with over 5 years of experience in automotive design, CAD modeling, product development, and process optimization. Proficient in industry-leading tools like CATIA, SolidWorks, and expertise in Lean Manufacturing and Six Sigma methodologies. Adept at optimizing design processes, improving manufacturability, and enhancing operational efficiency through data-driven decision-making. Passionate about innovation, continuous improvement, and contributing technical expertise to cutting-edge projects in the automotive and manufacturing industries.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Methodologies</h3>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Lean Manufacturing & Six Sigma</li>
+                        <li>Supply Chain & Logistics Optimization</li>
+                        <li>FMEA, DMAIC</li>
+                        <li>GD&T, DFM/DFA Principles</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Software & Tools</h3>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>CATIA V5, SolidWorks, AutoCAD</li>
+                        <li>CNC Programming</li>
+                        <li>Teamcenter, Windchill (PLM)</li>
+                        <li>ANSYS, HyperMesh (FEA)</li>
+                        <li>Computational Fluid Dynamics (CFD)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Other Expertise</h3>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Material Selection & Manufacturing Processes</li>
+                        <li>3D Printing & Prototyping</li>
+                        <li>Engineering Change Management (ECM)</li>
+                        <li>BOM Management</li>
+                        <li>Regulatory Compliance (ASME, ISO, SAE)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">Work Experience & Projects</h2>
+            <div class="space-y-8">
+                <!-- Procter & Gamble -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2">Industrial Engineer, Procter & Gamble</h3>
+                    <p class="text-gray-600 mb-2">Jan 2024 – Present, Cincinnati, OH</p>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Optimized manufacturing processes, reducing waste by 15% through data-driven strategies.</li>
+                        <li>Led Six Sigma and Kaizen initiatives, improving product quality and reducing defects.</li>
+                        <li>Managed supply chain logistics, minimizing lead times and stabilizing inventory.</li>
+                        <li>Developed KPIs to monitor efficiency and drive continuous improvement.</li>
+                    </ul>
+                    <img src="https://via.placeholder.com/300x200?text=Workflow+Chart" alt="Workflow Optimization Chart" class="mt-4 rounded">
+                </div>
+                <!-- Mahindra And Mahindra -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2">Design Engineer, Mahindra And Mahindra</h3>
+                    <p class="text-gray-600 mb-2">Aug 2021 – Apr 2023, India</p>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Designed chassis and suspension components, optimizing structural integrity via FEA.</li>
+                        <li>Implemented DFM/DFA principles, reducing production costs through material redesign.</li>
+                        <li>Performed CFD simulations for airflow and thermal efficiency.</li>
+                        <li>Programmed CNC machines for precision machining of components.</li>
+                    </ul>
+                    <img src="https://via.placeholder.com/300x200?text=CAD+Model" alt="Chassis CAD Model" class="mt-4 rounded">
+                </div>
+                <!-- MG Motors -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2">Design Engineer, MG Motors</h3>
+                    <p class="text-gray-600 mb-2">Jul 2019 – Jul 2021, India</p>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Designed interior/exterior trims and optimized cooling systems for efficiency.</li>
+                        <li>Assisted in DFMEA and tolerance stack-up analysis for component reliability.</li>
+                        <li>Researched additive manufacturing for innovative prototype development.</li>
+                        <li>Supported 3D scanning and reverse engineering for component redesign.</li>
+                    </ul>
+                    <img src="https://via.placeholder.com/300x200?text=3D+Trim+Model" alt="Interior Trim Model" class="mt-4 rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">Education & Certifications</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-xl font-semibold">Education</h3>
+                    <p class="text-gray-700">Master of Science in Industrial & Human Factors Engineering<br>Wright State University, Dayton, OH</p>
+                    <p class="text-gray-700">Bachelor of Engineering in Mechanical Engineering<br>NRI Institute of Technology, India</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Certifications</h3>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Certified Six Sigma Green Belt</li>
+                        <li>Lean Six Sigma Foundations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section py-16 bg-blue-800 text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-lg mb-4">Interested in collaborating on automotive or manufacturing projects? Reach out!</p>
+            <p class="text-lg mb-2">Phone: (309) 954-9344</p>
+            <p class="text-lg mb-2">Email: <a href="mailto:vbadugu9@gmail.com" class="underline">vbadugu9@gmail.com</a></p>
+            <p class="text-lg mb-4">LinkedIn: <a href="https://www.linkedin.com/in/sai-badugu/" class="underline">sai-badugu</a></p>
+            <p class="text-lg">Location: Fairborn, OH</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p>&copy; 2025 Venkata Sai Badugu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
